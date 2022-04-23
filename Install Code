@@ -1,0 +1,498 @@
+
+@echo off
+title VC-Redist Installing:
+cls
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                      Visual Studio Runtime                                            -
+echo -                                                                                                       -
+echo -                                           Installing                                                  -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                            Progress:                                                  -
+echo -  0                                                                                               100  - 
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                         (c)Marc_Beast                                                 -
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+
+Timeout 15 /nobreak >nul 2>&1
+title Progress: 0 Percent
+cls
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                      Visual Studio Runtime                                            -
+echo -                                                                                                       -
+echo -                                         Installing                                                    -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                          Progress:                                                    -
+echo -  0                                                                                               100  - 
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                         (c)Marc_Beast                                                 -
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+VC_64_2008.exe /q
+echo [%time% ] - Visual C Redist 2008 x64 Installing >>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+Timeout 15 /nobreak >nul 2>&1
+echo [%time% ] - Visual C Redist 2008 x64 has been installed -- Extended Instalations Log is located in: "%temp%" >>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+title Progress: 10 Percent
+cls
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                      Visual Studio Runtime                                            -
+echo -                                                                                                       -
+echo -                                         Installing                                                    -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                          Progress:                                                    -
+echo -  0                                                                                               100  - 
+echo -  ==========                                                                                           -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                         (c)Marc_Beast                                                 -
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+VC_32_2008.exe /q
+echo [%time% ] - Visual C Redist 2008 x32 Installing >>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+Timeout 15 /nobreak >nul 2>&1
+echo [%time% ] - Visual C Redist 2008 x32 has been installed -- Extended Instalations Log is located in: "%temp%">>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+title Progress: 20 Percent
+cls
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                      Visual Studio Runtime                                            -
+echo -                                                                                                       -
+echo -                                         Installing                                                    -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                          Progress:                                                    -
+echo -  0                                                                                               100  - 
+echo -  ====================                                                                                 -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                         (c)Marc_Beast                                                 -
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+VC_64_2010.exe /q
+echo [%time% ] - Visual C Redist 2010 x64 Installing >>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+Timeout 15 /nobreak >nul 2>&1
+echo [%time% ] - Visual C Redist 2010 x64 has been installed -- Extended Instalations Log is located in: "%temp%">>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+title Progress: 30 Percent
+cls
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                      Visual Studio Runtime                                            -
+echo -                                                                                                       -
+echo -                                         Installing                                                    -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                          Progress:                                                    -
+echo -  0                                                                                               100  - 
+echo -  ==============================                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                         (c)Marc_Beast                                                 -
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+VC_32_2010.exe /q
+echo [%time% ] - Visual C Redist 2010 x32 Installing >>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+Timeout 15 /nobreak >nul 2>&1
+echo [%time% ] - Visual C Redist 2010 x32 has been installed -- Extended Instalations Log is located in: "%temp%">>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+title Progress: 40 Percent
+cls
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                      Visual Studio Runtime                                            -
+echo -                                                                                                       -
+echo -                                         Installing                                                    -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                          Progress:                                                    -
+echo -  0                                                                                               100  - 
+echo -  ========================================                                                             -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                         (c)Marc_Beast                                                 -
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+VC_64_2012.exe /q
+echo [%time% ] - Visual C Redist 2012 x64 Installing >>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+Timeout 15 /nobreak >nul 2>&1
+echo [%time% ] - Visual C Redist 2012 x64 has been installed -- Extended Instalations Log is located in: "%temp%">>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+title Progress: 50 Percent
+cls
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                      Visual Studio Runtime                                            -
+echo -                                                                                                       -
+echo -                                         Installing                                                    -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                          Progress:                                                    -
+echo -  0                                                                                               100  - 
+echo -  ==================================================                                                   -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                         (c)Marc_Beast                                                 -
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+VC_32_2012.exe /q
+echo [%time% ] - Visual C Redist 2012 x32 Installing >>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+Timeout 15 /nobreak >nul 2>&1
+echo [%time% ] - Visual C Redist 2012 x32 has been installed -- Extended Instalations Log is located in: "%temp%">>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+title Progress: 60 Percent
+cls
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                      Visual Studio Runtime                                            -
+echo -                                                                                                       -
+echo -                                         Installing                                                    -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                          Progress:                                                    -
+echo -  0                                                                                               100  - 
+echo -  ============================================================                                         -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                         (c)Marc_Beast                                                 -
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+VC_64_2013.exe /q
+echo [%time% ] - Visual C Redist 2013 x64 Installing >>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+Timeout 15 /nobreak >nul 2>&1
+echo [%time% ] - Visual C Redist 2013 x64 has been installed -- Extended Instalations Log is located in: "%temp%">>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+title Progress: 70 Percent
+cls
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                      Visual Studio Runtime                                            -
+echo -                                                                                                       -
+echo -                                         Installing                                                    -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                          Progress:                                                    -
+echo -  0                                                                                               100  - 
+echo -  ======================================================================                               -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                         (c)Marc_Beast                                                 -
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+VC_32_2013.exe /q
+echo [%time% ] - Visual C Redist 2013 x32 Installing >>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+Timeout 15 /nobreak >nul 2>&1
+echo [%time% ] - Visual C Redist 2013 x32 has been installed -- Extended Instalations Log is located in: "%temp%">>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+title Progress: 80 Percent
+cls
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                      Visual Studio Runtime                                            -
+echo -                                                                                                       -
+echo -                                         Installing                                                    -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                          Progress:                                                    -
+echo -  0                                                                                               100  - 
+echo -  ================================================================================                     -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                         (c)Marc_Beast                                                 -
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+VC_64_2022.exe /q
+echo [%time% ] - Visual C Redist 2022 x64 Installing >>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+Timeout 15 /nobreak >nul 2>&1
+echo [%time% ] - Visual C Redist 2022 x64 has been installed -- Extended Instalations Log is located in: "%temp%">>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+title Progress: 90 Percent
+cls
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                      Visual Studio Runtime                                            -
+echo -                                                                                                       -
+echo -                                         Installing                                                    -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                          Progress:                                                    -
+echo -  0                                                                                               100  - 
+echo -  ==========================================================================================           -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                         (c)Marc_Beast                                                 -
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+VC_32_2022.exe /q
+echo [%time% ] - Visual C Redist 2022 x32 Installing >>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+Timeout 15 /nobreak >nul 2>&1
+echo [%time% ] - Visual C Redist 2022 x32 has been installed -- Extended Instalations Log is located in: "%temp%">>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+title Progress: 100 Percent
+cls
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                      Visual Studio Runtime                                            -
+echo -                                                                                                       -
+echo -                                         Installing                                                    -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                          Progress:                                                    -
+echo -  0                                                                                               100  - 
+echo -  ===================================================================================================  -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                         (c)Marc_Beast                                                 -
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+Timeout 15 /nobreak >nul 2>&1
+title DirectX Installing
+cls
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                            DirectX                                                    -
+echo -                                                                                                       -
+echo -                                          Installing                                                   -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                 Duration: approximately 1 minute                                      -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                         (c)Marc_Beast                                                 -
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+echo [%time% ] - DirectX Installing >>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+DirectX_Installer.exe /q
+echo [%time% ] - DirectX has been installed -- Extended Instalations Log is located in: "C:\Windows\DirectX.log">>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+title Completed!
+color 2
+cls
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                      Visual Studio Runtime                                            -
+echo -                                           and DirectX                                                 -
+echo -                                                                                                       -
+echo -                                     Installation completed                                            -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                         (c)Marc_Beast                                                 -
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+del VC_64_2008.exe
+echo [%time% ] - "VC_64_2008.exe" will be deleted >>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+del VC_32_2008.exe
+echo [%time% ] - "VC_32_2008.exe" will be deleted >>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+del VC_64_2010.exe
+echo [%time% ] - "VC_64_2010.exe" will be deleted >>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+del VC_32_2010.exe
+echo [%time% ] - "VC_32_2010.exe" will be deleted >>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+del VC_64_2012.exe
+echo [%time% ] - "VC_64_2012.exe" will be deleted >>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+del VC_32_2012.exe
+echo [%time% ] - "VC_32_2012.exe" will be deleted >>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+del VC_64_2013.exe
+echo [%time% ] - "VC_64_2013.exe" will be deleted >>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+del VC_32_2013.exe
+echo [%time% ] - "VC_32_2013.exe" will be deleted >>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+del VC_64_2022.exe
+echo [%time% ] - "VC_64_2022.exe" will be deleted >>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+del VC_32_2022.exe
+echo [%time% ] - "VC_32_2022.exe" will be deleted >>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+del DirectX_Installer.exe
+echo [%time% ] - "DirectX_Installer.exe" will be deleted >>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+del install.bat >nul 2>&1
+echo [%time% ] - "Install.bat" will be deleted >>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+del "C:\Users\Public\Downloads\VC\start.bat" >nul 2>&1
+echo [%time% ] - "Start.bat" will be deleted >>"%userprofile%\Downloads\VC Install Log.log"
+echo - >>"%userprofile%\Downloads\VC Install Log.log"
+echo [%time% ] - The installation was completed on %date% by %time% >>"%userprofile%\Downloads\VC Install Log.log"
+echo -                                         - >>"%userprofile%\Downloads\VC Install Log.log"
+echo -                  LOG END                - >>"%userprofile%\Downloads\VC Install Log.log"
+echo -                                         - >>"%userprofile%\Downloads\VC Install Log.log"
+echo -                 Marc_Beast              - >>"%userprofile%\Downloads\VC Install Log.log"
+echo -                                         - >>"%userprofile%\Downloads\VC Install Log.log"
+echo -   Support: https://github.com/MarcBeast - >>"%userprofile%\Downloads\VC Install Log.log"
+echo -                                         - >>"%userprofile%\Downloads\VC Install Log.log"
+Pause
+exit
