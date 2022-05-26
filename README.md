@@ -1,4 +1,4 @@
-# Visual C++ Runtime and DirectX all in one installer
+# Visual Studio Runtime and DirectX all in one installer
 This installer allows you to install the latest Visual C++ Runtime of all years (2008-2022) and the complete DirectX Runtime in English at once.
 
 ## Updates
