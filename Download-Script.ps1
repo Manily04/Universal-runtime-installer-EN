@@ -4,7 +4,7 @@ echo - >>"%userprofile%\Downloads\Runtime installer Log.log"
 mkdir C:\Users\Public\Downloads\VC >nul 2>&1
 echo [%time% ] - Folder created in c:\Users\Public\Downloads\ folder name: "VC" path: c:\Users\Public\Downloads\VC >>"%userprofile%\Downloads\Runtime installer Log.log"
 echo - >>"%userprofile%\Downloads\Runtime installer Log.log"
-title Prerequisite is downloading
+title Prerequisites are downloading
 Cls
 echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
 echo -                                                                                                       -
@@ -19,7 +19,7 @@ echo -                                                                          
 echo -                                                                                                       -
 echo -                                                                                                       -
 echo -                                                                                                       -
-echo -                                    Prerequisite is downloading                                        -
+echo -                                   Prerequisites are downloading                                       -
 echo -                                                                                                       -
 echo -                                                                                                       -
 echo -                                                                                                       -
@@ -35,11 +35,12 @@ echo =                                         = >>"%userprofile%\Downloads\Runt
 echo =               DOWNLOAD STARTED          = >>"%userprofile%\Downloads\Runtime installer Log.log"
 echo =                                         = >>"%userprofile%\Downloads\Runtime installer Log.log"
 echo - >>"%userprofile%\Downloads\Runtime installer Log.log"
-echo [%time% ] - Downloading Prerequisite for installation >>"%userprofile%\Downloads\Runtime installer Log.log"
+echo [%time% ] - Downloading Prerequisites for installation >>"%userprofile%\Downloads\Runtime installer Log.log"
 echo - >>"%userprofile%\Downloads\Runtime installer Log.log"
-powershell -c $e=new-object net.webclient ; $e.proxy=[net.webrequest]::getsystemwebproxy();$e.proxy.credentials=[net.credentialcache]::defaultcredentials;$e.downloadfile('https://github.com/Manily04/VC-Runtime-und-DirectX-all-in-one-Installer/raw/main/DesktopAppInstaller.Msixbundle','c:\users\public\downloads\VC\DesktopInstaller.msixbundle')
-title Downloading VC Runtime
+powershell -c $e=new-object net.webclient ; $e.proxy=[net.webrequest]::getsystemwebproxy();$e.proxy.credentials=[net.credentialcache]::defaultcredentials;$e.downloadfile('https://github.com/Manily04/Universeller-Runtime-Installer-DE/raw/main/DesktopInstaller.appx','c:\users\public\downloads\VC\DesktopInstaller.Appx')
+powershell -c $e=new-object net.webclient ; $e.proxy=[net.webrequest]::getsystemwebproxy();$e.proxy.credentials=[net.credentialcache]::defaultcredentials;$e.downloadfile('https://github.com/Manily04/Universeller-Runtime-Installer-DE/raw/main/MicrosoftUI.Appx','c:\users\public\downloads\VC\MicrosoftUI.Appx')
 cls
+title Downloading VC Runtime
 echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
 echo -                                                                                                       -
 echo -                                                                                                       -
@@ -65,7 +66,6 @@ echo -                                                                          
 echo -                                                                                                       -
 echo -                                           (c)Manily                                                   -
 echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
-
 powershell -c $e=new-object net.webclient ; $e.proxy=[net.webrequest]::getsystemwebproxy();$e.proxy.credentials=[net.credentialcache]::defaultcredentials;$e.downloadfile('https://download.microsoft.com/download/3/B/C/3BC60F47-6A7C-4D46-8CFB-C2E746EF336E/vc_uwpdesktop.110.exe','c:\users\public\downloads\VC\VC_110_UWP.exe')
 echo [%time% ] - Visual C++ Runtime v11.0 UWP Downloading >>"%userprofile%\Downloads\Runtime installer Log.log"
 echo - >>"%userprofile%\Downloads\Runtime installer Log.log"
