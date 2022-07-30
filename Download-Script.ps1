@@ -1,7 +1,7 @@
 @echo off
 echo [%time% ] - log start >"%userprofile%\Downloads\Runtime installer Log.log"
 echo - >>"%userprofile%\Downloads\Runtime installer Log.log"
-mkdir C:\Users\Public\Downloads\VC >nul 2>&1 
+mkdir C:\Users\Public\Downloads\VC >nul 2>&1
 echo [%time% ] - Folder created in c:\Users\Public\Downloads\ folder name: "VC" path: c:\Users\Public\Downloads\VC >>"%userprofile%\Downloads\Runtime installer Log.log"
 echo - >>"%userprofile%\Downloads\Runtime installer Log.log"
 Cls
