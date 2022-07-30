@@ -252,7 +252,7 @@ echo -                                           Installing                     
 echo -                                                                                                       -
 echo -                                                                                                       -
 echo -                                            Progress:                                                  -
-echo -  0                                                                                               100  - 
+echo -  0                                                                                               100  -
 echo -  ========================================                                                             -
 echo -                                                                                                       -
 echo -                                                                                                       -
