@@ -252,7 +252,7 @@ echo -                                           Installing                     
 echo -                                                                                                       -
 echo -                                                                                                       -
 echo -                                            Progress:                                                  -
-echo -  0                                                                                               100  -
+echo -  0                                                                                               100  - 
 echo -  ========================================                                                             -
 echo -                                                                                                       -
 echo -                                                                                                       -
@@ -957,6 +957,7 @@ echo [%time% ] - Installing DirectX >>"%userprofile%\Downloads\Runtime installer
 echo - >>"%userprofile%\Downloads\Runtime installer Log.log"
 winget install Microsoft.DirectX
 echo [%time% ] - DirectX has been installed -- Extended installations log is located in: "C:\Windows\DirectX.log" >>"%userprofile%\Downloads\Runtime installer Log.log"
+echo - >>"%userprofile%\Downloads\Runtime installer Log.log"
 cls
 :JavaChoice
 title Java
@@ -1151,9 +1152,6 @@ echo [%time% ] - "DirectX_UWP.appx" will be deleted >>"%userprofile%\Downloads\R
 echo - >>"%userprofile%\Downloads\Runtime installer Log.log"
 del C:\Users\Public\Downloads\VC\oalinst.exe >nul 2>&1
 echo [%time% ] - "oalinst.exe" will be deleted >>"%userprofile%\Downloads\Runtime installer Log.log"
-echo - >>"%userprofile%\Downloads\Runtime installer Log.log"
-del C:\Users\Public\Downloads\VC\install.bat >nul 2>&1
-echo [%time% ] - "install.bat" will be deleted >>"%userprofile%\Downloads\Runtime installer Log.log"
 echo - >>"%userprofile%\Downloads\Runtime installer Log.log"
 echo =                                         = >>"%userprofile%\Downloads\Runtime installer Log.log"
 echo =               CLEANUP COMPLETED         = >>"%userprofile%\Downloads\Runtime installer Log.log"
