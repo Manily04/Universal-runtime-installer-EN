@@ -15,7 +15,7 @@ The `latest version <Universal-runtime-installer-EN/releases/latest>`_ downloads
 
 offline setup
 ===============================
-If you don't have an internet connection on the PC to be installed, you can use the `first release <https://github.com/Manily04/Universal-runtime-installer-EN/releases/tag/v1>`__ because they still have all Visual Studio 2008 - 2022 Runtimes in the installer, but no more - Update status of `v1 <https://github.com/Manily04/Universal-runtime-installer-EN/releases/tag/v1>`_ April 2022
+If you don't have an internet connection on the PC to be installed, you can use the `first release <https://github.com/Manily04/Universal-runtime-installer-EN/releases/tag/v1>`__ because they still have all Visual Studio 2008 - 2022 Runtimes in the installer, but no more - Update status of `v1 <https://github.com/Manily04/Universal-runtime-installer-EN/releases/tag/v1>`_ - April 2022
 
 log
 ---------
