@@ -12,7 +12,7 @@ This installer allows to install the latest Visual C++ Runtime of all years (200
 
 updates
 ===============================
-The `latest version <Universal-runtime-installer-EN/releases/latest>`_ downloads all runtimes independently, which means that when the tool is run, the latest available version of the runtime is always installed. (An internet connection is required for `versions above the first release <https://github.com/Manily04/Universal-runtime-installer-EN/releases/tag/v1>`_)
+The `latest version <https://github.com/Manily04/Universal-runtime-installer-EN/releases/latest>`_ downloads all runtimes independently, which means that when the tool is run, the latest available version of the runtime is always installed. (An internet connection is required for `versions above the first release <https://github.com/Manily04/Universal-runtime-installer-EN/releases/tag/v1>`_)
 
 offline setup
 ===============================
