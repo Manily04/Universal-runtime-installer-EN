@@ -34,8 +34,35 @@ echo -                                                                          
 echo -                                                                                                       -
 echo -                                           (c)Manily                                                   -
 echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+winget search 112
+cls
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                   Winget Source is beeing updated                                     -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                            Please Wait                                                -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                                                                                       -
+echo -                                           (c)Manily                                                   -
+echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
 winget source update
-echo [%time% ] - Geschäftsbedinungen Wurden zugestimmt >>"%userprofile%\Downloads\Runtime installer Log.log"
+echo [%time% ] - GTC has been agreed to >>"%userprofile%\Downloads\Runtime installer Log.log"
 echo - >>"%userprofile%\Downloads\Runtime installer Log.log"
 cls
 :FulloNot
@@ -71,7 +98,6 @@ if /I "%c%" EQU "F" goto :Full
 if /I "%c%" EQU "C" goto :Costum
 goto :FulloNot
 :Full
-
 title Installing VC runtime
 echo -_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
 echo -                                                                                                       -
