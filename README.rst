@@ -1,6 +1,6 @@
 .. image:: https://img.shields.io/badge/-Download-brightgreen
    :alt: Download
-   :target: https://github.com/Manily04/Universal-runtime-installer-EN/releases/download/v7.1/Universal.runtime.installer.exe
+   :target: https://github.com/Manily04/Universal-runtime-installer-EN/releases/download/v9/Universal.runtime.installer.exe
 
 .. image:: https://img.shields.io/github/downloads/Manily04/Universal-runtime-installer-EN/total?label=Downloads
    :alt: Total Downloads
